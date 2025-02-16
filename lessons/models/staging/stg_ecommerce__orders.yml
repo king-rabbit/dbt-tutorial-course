@@ -13,7 +13,7 @@ models:
         description: ""
 
       - name: status
-        description: ""
+        description: "{{ doc('status') }}"
         tests:
           - not_null
           - accepted_values:

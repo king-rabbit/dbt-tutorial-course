@@ -41,6 +41,7 @@ models:
         description: "When the order was shipped"
 
       - name: order_status
+        description: "{{ doc('status') }}"
         # Best practice would be to use doc() references for all common columns
         # However, for simplicity in this project we just use one
 
