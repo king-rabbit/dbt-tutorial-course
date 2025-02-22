@@ -52,3 +52,9 @@ models:
         description: "product_retail_price minus item_sale_price"
         tests:
           - not_null
+
+
+  - name: int_ecommerce__first_order_created
+    description: ""
+    columns:
+      - *user_id
